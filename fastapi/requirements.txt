@@ -1,0 +1,37 @@
+# FastAPI & WebSocket
+fastapi==0.110.1
+uvicorn[standard]==0.29.0
+python-socketio==5.11.2
+websockets==12.0
+
+# MongoDB (در صورتی که FastAPI استفاده می‌کنه)
+motor
+
+# Redis & Celery (اگر استفاده می‌کنی برای FastAPI هم)
+redis==5.0.4
+celery==5.3.6
+flower==2.0.1
+
+# Env management
+python-decouple==3.8
+
+# Logging & Monitoring
+loguru==0.7.2
+
+# Security & Validation
+bcrypt==4.1.3
+passlib[bcrypt]==1.7.4
+pydantic==2.5.3
+
+# General
+httpx==0.27.0
+requests==2.31.0
+
+# Development
+watchgod==0.8.1
+ipython==8.24.0
+coverage==7.4.3
+pytest==8.2.0
+black==24.4.2
+flake8==7.0.0
+pre-commit==3.7.0

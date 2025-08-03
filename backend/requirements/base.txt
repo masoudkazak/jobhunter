@@ -1,0 +1,30 @@
+# Core Django backend
+Django==4.2.7
+gunicorn==21.2.0
+djangorestframework==3.14.0
+djangorestframework-simplejwt
+django-cors-headers
+# PostgreSQL
+psycopg2-binary==2.9.9
+
+# MongoDB (در صورتی که Django استفاده می‌کنه، وگرنه حذفش کن)
+pymongo
+
+# Redis & Celery
+redis==5.0.4
+django-redis
+celery==5.3.6
+flower==2.0.1
+
+# Env management
+python-decouple==3.8
+
+# Logging & Monitoring
+loguru==0.7.2
+
+# Security & Validation
+bcrypt==4.1.3
+passlib[bcrypt]==1.7.4
+
+# General
+requests==2.31.0

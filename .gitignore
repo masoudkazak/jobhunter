@@ -1,0 +1,60 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.pkl
+
+# Django stuff
+*.log
+*.pot
+*.pyc
+local_settings.py
+db.sqlite3
+media/
+staticfiles/
+.env
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# PostgreSQL & Mongo
+*.db
+*.sql
+
+# Virtual environments
+.env/
+.venv/
+env/
+venv/
+ENV/
+
+# VSCode / IDEs
+.vscode/
+.idea/
+*.swp
+
+# Test reports
+htmlcov/
+.coverage
+coverage.xml
+*.cover
+.pytest_cache/
+nosetests.xml
+test-results.xml
+
+# Node (if frontend is added)
+node_modules/
+npm-debug.log
+
+# Docker & Build
+*.tar
+*.img
+*.bak
+docker-compose.override.yml
+
+# OS specific
+.DS_Store
+Thumbs.db

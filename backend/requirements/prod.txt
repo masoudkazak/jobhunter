@@ -1,0 +1,10 @@
+# Web Servers
+gunicorn
+uvicorn[standard]  # for FastAPI
+
+# Performance / Security
+whitenoise
+django-compressor
+
+# Monitoring (اختیاری در صورت نیاز به لاگ حرفه‌ای)
+sentry-sdk

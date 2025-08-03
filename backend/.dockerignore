@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.egg-info/
+
+# Byte-compiled / cache
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+*.db
+
+# Virtual environments
+.venv/
+env/
+venv/
+ENV/
+
+# Git & IDE
+.git/
+.gitignore
+.vscode/
+.idea/
+.DS_Store
+
+# System
+Thumbs.db
+
+# Logs
+*.log
+*.pid
+
+# Django Static / Media
+staticfiles/
+media/
